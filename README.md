@@ -54,11 +54,13 @@ Login with Thymeleaf :
 ***
 Index Page After Login : 
 ![](src/main/resources/img/index-page.png)
-* Delete button and todolist buttons are active. 
+--Delete button and todolist buttons are active. 
+***
 ***
 ToDo Page After Index : 
 ![](src/main/resources/img/todolist.png)
-* Use change status button to change false to true and also u can delete it.
+---Use change status button to change false to true and also u can delete it.
+***
 ***
 New Task Page After Index :
 ![](src/main/resources/img/newTask.png)
