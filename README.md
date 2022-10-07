@@ -36,7 +36,7 @@
 ```
 ***
 
-Register Json for Swagger :
+### Register Json for Swagger :
 ```json
 {
   "firstName": "abkode",
