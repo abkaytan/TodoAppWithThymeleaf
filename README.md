@@ -46,32 +46,32 @@ Register Json for Swagger :
 }
 ```
 ***
-###Register for Thymeleaf :
+### Register for Thymeleaf :
 ![](src/main/resources/img/th-registration.png)
 ***
-###Login with Thymeleaf :
+### Login with Thymeleaf :
 ![](src/main/resources/img/login-page-thymleaf.png)
 ***
-###Index Page After Login : 
+### Index Page After Login : 
 ![](src/main/resources/img/index-page.png)
 --Delete button and todolist buttons are active. 
 ***
 ***
-###ToDo Page After Index : 
+### ToDo Page After Index : 
 ![](src/main/resources/img/todolist.png)
 ---Use change status button to change false to true and also u can delete it.
 ***
 ***
-###New Task Page After Index :
+### New Task Page After Index :
 ![](src/main/resources/img/newTask.png)
 ***
-###H2Database User : 
+### H2Database User : 
 ![](src/main/resources/img/h2user.png)
 ***
-###H2Database TaskList : 
+### H2Database TaskList : 
 ![](src/main/resources/img/h2TaskList.png)
 ***
-###Swagger-ui :
+### Swagger-ui :
 ![](src/main/resources/img/swagger1.png)
 ![](src/main/resources/img/swagger2.png)
 ***
