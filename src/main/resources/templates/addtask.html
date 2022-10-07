@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Add User</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+<div class="container my-5">
+    <h2>New Task</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form action="#" th:action="@{/addtask}" th:object="${todoItem}" method="post">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="description" class="col-form-label">Description</label>
+                        <input type="text" th:field="*{description}" class="form-control" id="description" placeholder="Task Description">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="completed" class="col-form-label">Completed</label>
+                        <input type="text" th:field="*{completed}" class="form-control" id="completed" placeholder="True or False">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="userId" class="col-form-label">UserId</label>
+                        <input type="text" th:field="*{userId}" class="form-control" id="userId" placeholder="User Id">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mt-5">
+                        <input type="submit" class="btn btn-primary" value="Add Task">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
